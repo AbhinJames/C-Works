@@ -1,0 +1,3 @@
+﻿  EncryptionDecryptionProject.cpp
+C:\Users\aallil\Desktop\D02 C and Cpp\Project\EncryptionDecryptionProject\EncryptionDecryptionProject\EncryptionDecryptionProject\EncryptionDecryptionProject.cpp(95,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  EncryptionDecryptionProject.vcxproj -> C:\Users\aallil\Desktop\D02 C and Cpp\Project\EncryptionDecryptionProject\EncryptionDecryptionProject\Debug\EncryptionDecryptionProject.exe

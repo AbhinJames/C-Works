@@ -1,0 +1,12 @@
+﻿  ConsoleInput.cpp
+  ConsoleMenu.cpp
+C:\Users\aallil\Desktop\LibraryExamBase\Utility\ConsoleMenu.cpp(40,24): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aallil\Desktop\LibraryExamBase\Utility\ConsoleMenu.cpp(92,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\aallil\Desktop\LibraryExamBase\Utility\ConsoleMenu.cpp(127,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\aallil\Desktop\LibraryExamBase\Utility\ConsoleMenu.cpp(140,21): warning C4018: '<': signed/unsigned mismatch
+  Date.cpp
+  DateTime.cpp
+  Strings.cpp
+C:\Users\aallil\Desktop\LibraryExamBase\Utility\Strings.cpp(23,58): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Utility.vcxproj -> C:\Users\aallil\Desktop\LibraryExamBase\x64\Debug\Utility.lib
