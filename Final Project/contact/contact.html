@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Stuff | Contact Page</title>
+    <meta name="description" content="Contact Page of Hot Stuff ">
+    <meta name="author" content="Hot Stuff">
+    <!-- below for private pages only,remove line for public pages
+    <meta name="robots" content="noindex, nofollow">-->
+
+    <!--for responsive website-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- website icon-->
+    <link rel="icon" href="../Images/microwave.png" type="image/jpeg">
+    <link rel="stylesheet" href="../css-files/globalcss.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Coustard&family=Girassol&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Crimson+Text&family=Girassol&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class ="wrap">
+            <!--logo-->
+            <div class="logo">
+            <img src="../Images/microwave.png" alt="LOGO" title="HOTSTUFF.CA" width="60">
+            </div>
+            <div class="name">
+                <p>HOTSTUFF.CA</p>
+            </div>
+            <!--navbar-->
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="../photo gallery/gallery.html">Gallery</a></li>
+                    <li><a href="../table/table.html">Compare</a></li>
+                    <li><a href="../catalogue/catalogue.html">Catalogue</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </div>
+            </div>
+    </header>
+    <div id="contacttitle">
+        <h1>Get to us Anytime!</h1>
+        <h1>Write to us Anytime!</h1>
+    </div>
+    <div id="wrapper">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179239
+            .4397744524!2d-71.97413149999998!3d45.417077549999995!2m3!1f0!2f0!3f0!3m2!
+            1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb7b30cd735cbff%3A0xf11a8d21d25c0767!2s
+            Sherbrooke%2C%20QC!5e0!3m2!1sen!2sca!4v1586751941680!5m2!1sen!2sca" 
+            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </div>
+        <div id="form">
+            <form id="usrform" method="GET" action="../index.html">
+                <input type="text" name="fname" placeholder="First Name" id="fname" required/><br/>
+                <input type="text" name="lname" placeholder="Last Name" id="lname" required/><br/>
+                <input type="email" id="email" name="email" placeholder="E-Mail ID" required/><br/>
+                <input type="radio" name="gender" value="m" class="sex" checked/><label>Male</label>
+                <input type="radio" name="gender" value="f" class="sex"/><label>Female</label>
+                <input type="radio" name="gender" value="o" class="sex"/><label>Other</label><br/>
+                <select name="province">
+                    <option value="null" disabled selected>Province</option>
+                    <option value="ab">Alberta</option>
+                    <option value="bc">British Columbia</option>
+                    <option value="mb">Manitoba</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="nf">Newfoundland/Labrador</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nt">Nunavut</option>
+                    <option value="on">Ontario</option>
+                    <option value="pe">Prince Edward Island</option>
+                    <option value="qc">Quebec</option>
+                    <option value="sk">Sasketchewan</option>
+                    <option value="yt">Yukon</option>
+                </select><br/>
+                <textarea rows="4" cols="30" name="comment" placeholder="Your Message"></textarea><br/>
+                <input type="checkbox" name="newsletter" value="ns_ok" /><label>I want to recieve monthly deals and offers</label><br/>
+                <input type="submit" value="Submit" class="submit-button" />
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class ="footer">
+            <div class="address">
+                <b>Find us at:</b>
+                <p>5501 Adalbert Ave,<br>Sherbrooke,<br>H4R 2N7</p>
+                <strong>Write to us at:</strong>
+                <p><a href="">info@hotstuff.com</a></p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="../Images/facebook.png" alt="FB" title="FaceBook" width="40"></a>
+                <a href="https://www.instagram.com"><img src="../Images/instagram.png" alt="Instagram" title="Instagram" width="40"></a>
+                <a href="https://www.linkedin.com"><img src="../Images/linkedin.png" alt="Linkedin" title="Linkedin" width="40"></a>
+                <a href="https://www.twitter.com"><img src="../Images/twitter.png" alt="Twitter" title="Twitter" width="40"></a>
+            </div>
+            <div class="footermenu">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="../photo gallery/gallery.html">Gallery</a></li>
+                    <li><a href="../table/table.html">Compare</a></li>
+                    <li><a href="../catalogue/catalogue.html">Catalogue</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
